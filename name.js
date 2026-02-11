@@ -3,4 +3,10 @@ s;
 
 cjjjs;
 
-ggg;
+const arrayOfNumbers = [1, 4, 5, 8, 76, 0, 78];
+
+const randIndex = Math.floor(Math.random() * (arrayOfNumbers.length - 1) + 1);
+console.log(randIndex);
+console.log(arrayOfNumbers[randIndex]);
+
+hvshsh;
